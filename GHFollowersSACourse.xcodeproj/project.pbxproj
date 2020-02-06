@@ -11,6 +11,8 @@
 		5D4D683823DB4DA500F56AAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4D683723DB4DA500F56AAD /* SceneDelegate.swift */; };
 		5D4D683F23DB4DA700F56AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4D683E23DB4DA700F56AAD /* Assets.xcassets */; };
 		5D4D684223DB4DA700F56AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4D684023DB4DA700F56AAD /* LaunchScreen.storyboard */; };
+		5DC7335723EC9FEB002317A2 /* FollowersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7335623EC9FEB002317A2 /* FollowersCollectionViewCell.swift */; };
+		5DC7335923ECA081002317A2 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7335823ECA081002317A2 /* GFAvatarImageView.swift */; };
 		5DC8A4DB23DB6452003DDD07 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8A4DA23DB6452003DDD07 /* SearchViewController.swift */; };
 		5DC8A4DD23DB6500003DDD07 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8A4DC23DB6500003DDD07 /* FavoritesListViewController.swift */; };
 		5DC8A4DF23DB6C19003DDD07 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8A4DE23DB6C19003DDD07 /* GFButton.swift */; };
@@ -34,6 +36,8 @@
 		5D4D683E23DB4DA700F56AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D4D684123DB4DA700F56AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D4D684323DB4DA700F56AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC7335623EC9FEB002317A2 /* FollowersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersCollectionViewCell.swift; sourceTree = "<group>"; };
+		5DC7335823ECA081002317A2 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		5DC8A4DA23DB6452003DDD07 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		5DC8A4DC23DB6500003DDD07 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 		5DC8A4DE23DB6C19003DDD07 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
@@ -95,6 +99,14 @@
 			path = GHFollowersSACourse;
 			sourceTree = "<group>";
 		};
+		5DC7335523EC9FC7002317A2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5DC7335623EC9FEB002317A2 /* FollowersCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		5DC8A4EE23DF9027003DDD07 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,11 +120,13 @@
 		5DC8A4EF23DF907A003DDD07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5DC7335523EC9FC7002317A2 /* Cells */,
 				5DC8A4EA23DF85CA003DDD07 /* GFAlertViewController.swift */,
 				5DC8A4E623DF837C003DDD07 /* GFTitleLabel.swift */,
 				5DC8A4E023DB76B6003DDD07 /* GFTextField.swift */,
 				5DC8A4DE23DB6C19003DDD07 /* GFButton.swift */,
 				5DC8A4E823DF850D003DDD07 /* GFBodyLabel.swift */,
+				5DC7335823ECA081002317A2 /* GFAvatarImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,8 +240,10 @@
 				5DC8A4DF23DB6C19003DDD07 /* GFButton.swift in Sources */,
 				5DC8A4E323DB80C3003DDD07 /* FollowerListViewController.swift in Sources */,
 				5DC8A4ED23DF8CEC003DDD07 /* UIViewController+Extensions.swift in Sources */,
+				5DC7335723EC9FEB002317A2 /* FollowersCollectionViewCell.swift in Sources */,
 				5DC8A4E523DF8120003DDD07 /* String+Extensions.swift in Sources */,
 				5DC8A4F523E21526003DDD07 /* User.swift in Sources */,
+				5DC7335923ECA081002317A2 /* GFAvatarImageView.swift in Sources */,
 				5DC8A4EB23DF85CA003DDD07 /* GFAlertViewController.swift in Sources */,
 				5DC8A4F323E2146F003DDD07 /* Follower.swift in Sources */,
 				5D4D683623DB4DA500F56AAD /* AppDelegate.swift in Sources */,
